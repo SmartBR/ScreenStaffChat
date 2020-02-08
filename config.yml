@@ -1,0 +1,43 @@
+##########################################################################
+#                           ScreenStaffChat                              #
+#                                                                        #
+#                            Version 1.0.0                               #
+#                            Author: Smart                               #
+#                     Contato: Smart#2020 (discord)                      #
+##########################################################################
+
+
+# Permissão para usar o staff chat, quem possuir a mesma permissão
+# receberá mensagens dos staffs
+Pex_Manager:
+  permission: 'staffchat.usar'
+  permission-message: '&c&lSTAFFCHAT: &fVocê não tem permissão para executar este comando.'
+
+#Comandos e aliases:
+# /staffchat
+# /sc
+# /s
+
+# Erro no argumento
+args-erro: '&3&lSTAFFCHAT: &fUtilize &3/{command} <mensagem>&f.'
+
+# Formato da mensagem
+# Placeholders:
+# {player} - Nome do jogador
+# {displayname} - Pegar o displayname do jogador
+# {health} - Pegar a vida do jogador
+# {mensagem} - Pegar mensagem
+# {money} - Dinheiro do jogador
+# {world} - Nome do mundo do jogador
+# {ping} - Ping/Ms do jogador
+# {prefix} - Prefix do PermissionsEx
+# {suffix} - Suffix do PermissionsEx
+# {groupName} - Nome do grupo, PermissionsEx
+# {groupPrefix} - Prefix do grupo, PermissionsEx
+# {groupSuffix} - Suffix do grupom, PermissionsEx
+# {gamemode} - Modo de jogo do jogador
+# em breve mais...
+format:
+  - ''
+  - '&d&l[SC] &7{group}{player}&f: {mensagem}'
+  - ''

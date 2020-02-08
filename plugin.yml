@@ -1,0 +1,8 @@
+name: ScreenStaffChat
+version: 1.0.0
+author: Smart
+main: net.smart.staffchat.Main
+
+commands:
+  staffchat:
+    aliases: [sc, s]
